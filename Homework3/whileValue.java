@@ -1,3 +1,4 @@
+
 /*
 Introduccion a la computacion y programacion 1 seccion B
 Laboratorio, algoritmos en java
@@ -12,11 +13,18 @@ public class whileValue {
 
    public static void main(String[] args) {
    		int valorActual = 0;
+		int x = 0;
+		valorActual = Integer.parseInt(args[0].toString());
+
    		System.out.println(args[0]);
 
    		//si valor actual < args[0]
-   			System.out.println("el valor actual es: "+valorActual);
-      
+		while(x<valorActual)
+		{
+   			System.out.println("el valor actual es: "+x);
+			x++;
+		
+      		}
    }
 
 }
